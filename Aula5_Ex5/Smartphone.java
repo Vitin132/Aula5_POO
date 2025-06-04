@@ -1,0 +1,28 @@
+
+
+package Aula5_Ex5;
+
+/**
+ *
+ * @author Aluno
+ */
+public class Smartphone extends DispositivoEletronico{
+    
+    int tamTela;
+    
+    
+    public Smartphone(String marca, String modelo, int tamTela) {
+        super(marca, modelo);
+        this.tamTela = tamTela;
+    }
+
+    public int getTamTela() {
+        return tamTela;
+    }
+
+    public void setTamTela(int tamTela) {
+        this.tamTela = tamTela;
+    }
+    
+
+}
